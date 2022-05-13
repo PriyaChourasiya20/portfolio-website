@@ -1,0 +1,47 @@
+.resume-container {
+  margin-top: 100px;
+  /* margin-bottom: 100px; */
+}
+
+.resume-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.resume-details {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.resume-description {
+  width: 30%;
+  box-shadow: 15px 0 9px -15px #1f2235;
+}
+
+.resume-titles {
+  width: 60%;
+}
+
+.resume-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: red;
+}
+
+.resume-year {
+  width: 103px;
+  height: 40px;
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 120px; */
+}
